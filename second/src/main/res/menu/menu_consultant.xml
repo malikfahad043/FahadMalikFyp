@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--//Clients Menu-->
+    <group>
+        <item android:title="Clients">
+            <menu>
+                <item
+                    android:id="@+id/nav_consultee1"
+                    android:title="View Clients" />
+                <item
+                    android:id="@+id/nav_consultee2"
+                    android:title="Add New Clients" />
+                <item
+                    android:id="@+id/nav_consultee3"
+                    android:title="Previous Clients" />
+            </menu>
+        </item>
+    </group>
+
+    <!--//Booking-->
+    <group>
+        <item android:title="Bookings">
+            <menu>
+                <item
+                    android:id="@+id/nav_book1"
+                    android:title="View Current Bookings" />
+                <item
+                    android:id="@+id/nav_book2"
+                    android:title="Schedule Appointment" />
+                <item
+                    android:id="@+id/nav_book3"
+                    android:title="Manage Bookings" />
+                <item
+                    android:id="@+id/nav_book4"
+                    android:title="Consultee Search" />
+                <item
+                    android:id="@+id/nav_book5"
+                    android:title="View Previous Bookings" />
+                <item
+                    android:id="@+id/nav_book6"
+                    android:title="Availability" />
+            </menu>
+        </item>
+    </group>
+
+
+    <item
+        android:id="@+id/nav_consultee4"
+        android:title="Manage Payments" />
+    <item
+        android:id="@+id/nav_set1"
+        android:title="Account Settings" />
+    <item
+        android:id="@+id/nav_set2"
+        android:title="App Settings" />
+    <item
+        android:id="@+id/nav_set3"
+        android:title="Help" />
+    <item
+        android:id="@+id/nav_set4"
+        android:title="Log Out" />
+</menu>
