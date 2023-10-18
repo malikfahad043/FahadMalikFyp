@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="100dp"
     android:background="@drawable/gradient"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -16,6 +15,21 @@
         android:orientation="vertical"
         tools:ignore="ExtraText">
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#BAA6A6"
+                android:elevation="4dp"
+                android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </RelativeLayout>
 
 
         <TextView
@@ -23,6 +37,7 @@
             android:layout_height="wrap_content"
             android:text="Clients"
             android:textSize="35dp"
+            android:layout_marginLeft="145dp"
             android:textStyle="bold"
             android:textColor="@color/white"
             />

@@ -6,19 +6,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".drawer_consultant"
-    tools:ignore="ExtraText">
-
+    android:layout_gravity="start"
+    tools:ignore="ExtraText"
+    tools:openDrawer="start">
 
     <include layout="@layout/activity_dashboard_consultant" />
 
 
-<com.google.android.material.navigation.NavigationView
-    android:id="@+id/navigation_view"
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    android:layout_gravity="start"
-    app:headerLayout="@layout/header_consult"
-    app:menu="@menu/menu_consultant"/>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_consult"
+        app:menu="@menu/menu_consultant" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
 

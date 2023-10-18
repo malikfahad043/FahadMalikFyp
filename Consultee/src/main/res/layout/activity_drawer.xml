@@ -9,6 +9,7 @@
     android:fitsSystemWindows="true"
     tools:context=".drawer_DB"
     tools:openDrawer="start">
+
     <include layout="@layout/activity_dashboard" />
 
     <com.google.android.material.navigation.NavigationView
